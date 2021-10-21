@@ -28,10 +28,10 @@ class Auto:
         else:
             return "Las piezas no son originales"
 
-    def cantidadAsientos(self, asientos):
+    def cantidadAsientos(self):
         numeroAsientos = 0
-        if asientos != None:
-            for asiento in asientos:
+        if Auto.asientos != None:
+            for asiento in Auto.asientos:
                 if asiento != None:
                     numeroAsientos += 1
         return numeroAsientos
