@@ -30,8 +30,8 @@ class Auto:
 
     def cantidadAsientos(self):
         numeroAsientos = 0
-        if Auto.asientos != None:
-            for asiento in Auto.asientos:
+        if self.asientos != None:
+            for asiento in self.asientos:
                 if asiento != None:
                     numeroAsientos += 1
         return numeroAsientos
