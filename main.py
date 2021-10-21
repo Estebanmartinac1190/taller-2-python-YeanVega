@@ -13,10 +13,10 @@ class Asiento:
 
 class Auto:
     
-    def __init__(self, modelo, precio, Asiento, marca, motor, registro):
+    def __init__(self, modelo, precio, asientos, marca, motor, registro):
         self.modelo = modelo
         self.precio = precio
-        self.asientos = Asiento.asientos[0]
+        self.asientos = list(asientos)
         self.marca = marca
         self.motor = motor
         self.registro = registro
