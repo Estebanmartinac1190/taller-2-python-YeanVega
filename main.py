@@ -39,7 +39,7 @@ class Auto:
 
 class Motor:
     
-    def __init__(self, tipo, numeroCilindros, registro):
+    def __init__(self, numeroCilindros, tipo, registro):
         self.tipo = tipo
         self.numeroCilindros = numeroCilindros
         self.registro = registro
